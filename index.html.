@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Discover Egypt by local eyes with private tours to Giza, Saqqara, Cairo, Alexandria and Fayoum.">
+<title>Let's Local Egypt | Explore Egypt by Local Eyes</title>
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,sans-serif;color:#26342c;background:#fffdf7;line-height:1.6}
+header{background:#173c32;color:white;padding:18px 6%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+.logo{font-size:23px;font-weight:bold}
+nav{display:flex;gap:16px;flex-wrap:wrap}
+nav a{color:white;text-decoration:none}
+.hero{padding:100px 7%;min-height:470px;display:flex;align-items:center;color:white;background:linear-gradient(90deg,#142a23e8,#142a2350),url('https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&w=1600&q=85') center/cover}
+.hero div{max-width:650px}
+.hero h1{font-size:clamp(38px,7vw,64px);line-height:1.1;margin:10px 0}
+.hero p{font-size:18px}
+.btn{display:inline-block;background:#d5a64b;color:#17352b;padding:12px 20px;border-radius:5px;text-decoration:none;font-weight:bold;margin:8px 6px 0 0}
+section{padding:55px 7%}
+.heading{text-align:center;margin-bottom:30px}
+.heading h2{color:#173c32;font-size:32px;margin-bottom:5px}
+.intro{max-width:800px;text-align:center;margin:auto}
+.tours{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:22px}
+.card{background:white;border-radius:10px;overflow:hidden;box-shadow:0 4px 16px #00000012}
+.card img{width:100%;height:205px;object-fit:cover;display:block}
+.content{padding:18px}
+.content h3{color:#173c32;margin-top:0}
+.content a{color:#886019;font-weight:bold;text-decoration:none}
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:18px;text-align:center}
+.feature{padding:22px;background:#f2eee3;border-radius:8px}
+.feature span{font-size:30px}
+#contact{background:#173c32;color:white;text-align:center}
+#contact h2{font-size:30px}
+footer{text-align:center;background:#102a23;color:white;padding:20px}
+@media(max-width:600px){header{justify-content:center}nav{justify-content:center}.hero{padding:65px 6%}section{padding:42px 6%}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">Let's Local Egypt</div>
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#tours">Our Tours</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+<div>
+<p>AUTHENTIC EXPERIENCES • LOCAL KNOWLEDGE</p>
+<h1>Explore Egypt by Local Eyes</h1>
+<p>Discover ancient wonders, hidden gems and authentic Egyptian culture with a local guide.</p>
+<a class="btn" href="#tours">Explore Our Tours</a>
+<a class="btn" href="#contact">Plan Your Trip</a>
+</div>
+</section>
+
+<section id="about">
+<div class="intro">
+<div class="heading"><h2>Discover the Real Egypt</h2></div>
+<p>At Let's Local Egypt, we bring history to life through personal tours, local experiences and genuine Egyptian hospitality. Explore ancient monuments, historic streets and beautiful desert landscapes at your own pace.</p>
+</div>
+</section>
+
+<section id="tours">
+<div class="heading">
+<h2>Discover Our Tours</h2>
+<p>Find the right Egyptian adventure for you.</p>
+</div>
+<div class="tours">
+<article class="card">
+<img src="https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&w=800&q=80" alt="Pyramids of Giza">
+<div class="content">
+<h3>Giza Pyramids & Sphinx</h3>
+<p>Explore the Great Pyramids, panoramic viewpoints and the legendary Sphinx.</p>
+<a href="#contact">Ask About This Tour →</a>
+</div>
+</article>
+<article class="card">
+<img src="https://images.unsplash.com/photo-1568322445389-f64ac2515020?auto=format&fit=crop&w=800&q=80" alt="Ancient Egyptian monuments">
+<div class="content">
+<h3>Saqqara & Memphis</h3>
+<p>Discover the Step Pyramid of Djoser, ancient tombs and Egypt's early pyramid history.</p>
+<a href="#contact">Ask About This Tour →</a>
+</div>
+</article>
+<article class="card">
+<img src="https://images.unsplash.com/photo-1572252009286-268acec5ca0a?auto=format&fit=crop&w=800&q=80" alt="Historic Cairo">
+<div class="content">
+<h3>Historic Cairo</h3>
+<p>Explore Islamic Cairo, Coptic landmarks, historic mosques and traditional streets.</p>
+<a href="#contact">Ask About This Tour →</a>
+</div>
+</article>
+<article class="card">
+<img src="https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?auto=format&fit=crop&w=800&q=80" alt="Egyptian travel landscape">
+<div class="content">
+<h3>Alexandria</h3>
+<p>Discover Mediterranean history, coastal views and the heritage of this historic city.</p>
+<a href="#contact">Ask About This Tour →</a>
+</div>
+</article>
+<article class="card">
+<img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80" alt="Natural landscape">
+<div class="content">
+<h3>Fayoum Adventures</h3>
+<p>Experience desert scenery, outdoor adventures and the natural beauty of Fayoum.</p>
+<a href="#contact">Ask About This Tour →</a>
+</div>
+</article>
+<article class="card">
+<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80" alt="Outdoor experiences">
+<div class="content">
+<h3>Desert Experiences</h3>
+<p>Add a memorable outdoor adventure to your Egyptian holiday.</p>
+<a href="#contact">Ask About This Tour →</a>
+</div>
+</article>
+</div>
+</section>
+
+<section>
+<div class="heading">
+<h2>Why Travel With Us?</h2>
+<p>Thoughtful planning and personal experiences.</p>
+</div>
+<div class="features">
+<div class="feature"><span>🏛️</span><h3>Local Knowledge</h3><p>Learn the stories behind Egypt's historic sites.</p></div>
+<div class="feature"><span>🚗</span><h3>Private Tours</h3><p>Enjoy flexible itineraries tailored to your interests.</p></div>
+<div class="feature"><span>🤝</span><h3>Personal Service</h3><p>Get help planning a memorable Egyptian journey.</p></div>
+<div class="feature"><span>🌍</span><h3>Local Experiences</h3><p>Discover culture beyond the famous landmarks.</p></div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Ready to Explore Egypt?</h2>
+<p>Tell us what you would love to discover.</p>
+<a class="btn" href="mailto:letspyramidtours@gmail.com?subject=Let's%20Local%20Egypt%20Tour%20Inquiry">Contact Us by Email</a>
+<p>Private tours • Local experiences • Unforgettable memories</p>
+</section>
+</main>
+
+<footer>
+<p>© 2026 Let's Local Egypt</p>
+<p>Explore Egypt by Local Eyes</p>
+</footer>
+</body>
+</html>
